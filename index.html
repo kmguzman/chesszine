@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NYCZINE homepage</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css\normalize.css">
+  <link rel="stylesheet" href="css\typography.css">
+  <link rel="stylesheet" href="css\style.css">
 </head>
+
 <body>
-  <header>
-<h1>chess zine<h1>
+  <header class="site-header">
+    <h1>chess zine<h1>
+        <nav role="navigation">
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="subway.html">subway</a></li>
+            <li><a href="parks.html">parks</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
+        </nav>
   </header>
-  <main>
-<p> this is my zine</p>
-<p><img src="images/chess.jpg" alt="random pic of a chart from economics class"></p>
-</main>
-<footer>
-  <p>&copy;KEVINGUZMAN2018s</p>
-</footer>
+  <main role="main">
+    <article class="article-full">
+      <header class="article-header">
+        <div class="featured-image"></div>
+        <h2 class="articletitle">article title</h2>
+      </header>
+      <section class="article-text">
+        <h3 class="article-introduction">introduction</h3>
+        <p></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+      <section class="article-images">
+        <p>article images</p>
+      </section>
+      <section class="article-text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptatem corrupti officia quas, odio vitae commodi. Debitis eligendi dicta nesciunt reiciendis assumenda, repudiandae porro id nam, est explicabo quam neque.</p>
+      </section>
+    </article>
+    <p> this is my zine</p>
+    <p><img src="images/chess.jpg" alt="random pic of a chart from economics class"></p>
+  </main>
+  <footer>
+    <p>&copy;KEVINGUZMAN2018s</p>
+  </footer>
 </body>
+
 </html>
