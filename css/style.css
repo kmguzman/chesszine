@@ -1,15 +1,8 @@
-body{
-  background-color: #81f79f;
-}
+body { background-color: #81f79f; }
+
 /*base responsive styling*/
-html{
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-img,video{
-  width:auto;
-  height: auto;
-  max-width: 100%;
-}
+html { box-sizing: border-box; }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+img, video { width: auto; height: auto; max-width: 100%; }
