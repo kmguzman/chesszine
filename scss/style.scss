@@ -1,5 +1,6 @@
 @import 'normalize';
 @import 'typography';
+
 body{
   background-color: #81f79f;
 }
@@ -15,3 +16,31 @@ img,video{
   height: auto;
   max-width: 100%;
 }
+/*layout*/
+  @supports (grid-area: auto){
+  .article-main{
+  display: grid;
+grid-template-columns: 2fr 1fr;
+grid-template-areas:
+"featured featured"
+ "article aside";
+}
+.article-main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "featured"
+  "article"
+  "aside";
+}
+.featured-image{
+  grid-area:featured;
+}
+.article-full{
+  grid-area: article;
+}
+.article-aside{
+  grid-area: aside;
+}
+}
+// end grid
