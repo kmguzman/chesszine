@@ -582,23 +582,23 @@ h6 {
   text-transform: uppercase;
 }
 
-/* line 4, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+/* line 5, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
 body {
   background-color: #81f79f;
 }
 
 /*base responsive styling*/
-/* line 8, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+/* line 9, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 11, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+/* line 12, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 14, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+/* line 15, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
 img, video {
   width: auto;
   height: auto;
@@ -607,27 +607,27 @@ img, video {
 
 /*layout*/
 @supports (grid-area: auto) {
-  /* line 21, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+  /* line 22, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
   .article-main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "featured featured" "article aside";
   }
-  /* line 28, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+  /* line 29, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
   .article-main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "featured" "article" "aside";
   }
-  /* line 36, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+  /* line 37, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
   .featured-image {
     grid-area: featured;
   }
-  /* line 39, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+  /* line 40, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
   .article-full {
     grid-area: article;
   }
-  /* line 42, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
+  /* line 43, C:/Users/KMGuz/OneDrive/Documents/BMCC/Webdesign/github final/scss/style.scss */
   .article-aside {
     grid-area: aside;
   }
